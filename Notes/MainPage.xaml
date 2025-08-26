@@ -25,7 +25,7 @@
                 SemanticProperties.Hint="Para Apagar"
                 Clicked="ApagarBtn_Clicked"
                 HorizontalOptions="Fill" />
-            </HorizontalStackLayout>    
+            </HorizontalStackLayout>            
         </VerticalStackLayout>
     </ScrollView>
 
