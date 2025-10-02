@@ -16,11 +16,12 @@
         {
             string conteudo = CaixaEditor.Text;
             File.WriteAllText(caminho, conteudo);
-            DisplayAlert("Messagem", $"{caminho}", "OK");            
+            DisplayAlert("Salvar", $"Arquivo salvo em {caminho}", "OK");            
 
         }
         private void ApagarBtn_Clicked(object sender, EventArgs e)
         {
+            CaixaEditor.Text = String.Empty;
             if (File.Exists(caminho))
             {
                 File.Delete(caminho);
